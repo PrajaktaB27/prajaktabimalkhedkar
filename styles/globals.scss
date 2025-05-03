@@ -15,7 +15,7 @@ body {
   font-family: 'Caveat', cursive;
   color: #f15a5a;
 
-  .logo {
+  .home {
     flex: 1;
     font-size: 36px;
     margin: 1.2rem;
@@ -28,18 +28,18 @@ body {
     padding: 1rem;
     font-size: 34px;
     font-weight: 400;
+  }
 
-    a {
-      color: #f15a5a;
-    }
+  a {
+    color: #f15a5a;
+  }
 
-    a:link {
-      text-decoration: none;
-      padding: 0 1.75rem;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+  a:link {
+    text-decoration: none;
+    padding: 0 1.75rem;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }
 

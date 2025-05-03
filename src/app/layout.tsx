@@ -25,7 +25,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
       <body>
         <div className="navbar">
-          <span className="logo">Prajakta B.</span>
+          <Link href="/" className="home">
+            Prajakta B.
+          </Link>
           <nav className="links">
             <Link href="/about">about</Link>
             <Link href="/blog">archive</Link>
