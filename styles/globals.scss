@@ -1,20 +1,62 @@
 body {
-  font-family: "Poppins", cursive;
+  font-family: 'Raleway';
 }
 
-html body h1, html body h2, html body h3 {
+.layout {
+  padding-left: 9rem;
+  padding-right: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
   font-family: 'Caveat', cursive;
+  color: #f15a5a;
+
+  .logo {
+    flex: 1;
+    font-size: 36px;
+    margin: 1.2rem;
+    font-weight: 600;
+  }
+
+  .links {
+    float: right;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 34px;
+    font-weight: 400;
+
+    a {
+      color: #f15a5a;
+    }
+
+    a:link {
+      text-decoration: none;
+      padding: 0 1.75rem;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Caveat", cursive;
-}
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 1px;
 
-h4,
-h5,
-h6 {
-  font-family: "Caveat", cursive;
+  .start {
+    font-size: 32px;
+    color: #1f1503;
+  }
+  .role {
+    margin: 0.5rem;
+    font-family: 'Caveat', cursive;
+    color: #f15a5a;
+    font-size: 38px;
+  }
 }
-

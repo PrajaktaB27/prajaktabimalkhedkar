@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  .info {
+    max-width: 532px;
+    min-height: 333px;
+  }
+
+  .img {
+    padding: 1rem;
+  }
+}

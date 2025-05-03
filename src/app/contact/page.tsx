@@ -1,19 +1,39 @@
+import Image from 'next/image';
+import './contact.scss';
+
 const Contact = () => {
-    return (
-      <div>
-        <h1>Contact Me</h1>
-        <form action="mailto:your-email@example.com" method="post" encType="text/plain">
-          <label>Name:</label>
-          <input type="text" name="name" required />
-          <label>Email:</label>
-          <input type="email" name="email" required />
-          <label>Message:</label>
-          <textarea name="message" required></textarea>
-          <button type="submit">Send</button>
-        </form>
+  return (
+    <div className="container">
+      <div className="info">
+        <p className="about-p1">
+          I work as a frontend developer at{' '}
+          <span className="highlight">American Tire Distributors.</span>{' '}
+          Previously, I completed my Master&apos;s degree in Computer Science
+          with a specialization in Software Engineering at{' '}
+          <span className="highlight">Seattle University.</span>
+        </p>
+        <p className="about-p2">Check out my resume.</p>
+        <p className="about-p3">
+          I am open to considering new opportunities as a software engineer -
+          Frontend / Backend / Full Stack, in USA.
+        </p>
+
+        <p className="about-p4">
+          Connect with me on LinkedIn, or send me an Email if you’re hiring,
+          want to talk about my posts or even to discuss books and chat!
+        </p>
       </div>
-    );
-  };
-  
-  export default Contact;
-  
+      <div className="img">
+        {' '}
+        <Image
+          src="/assets/vector.svg"
+          alt="Vector graphic"
+          width={289}
+          height={226}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
